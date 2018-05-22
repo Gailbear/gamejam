@@ -1,13 +1,13 @@
 /// <reference path="../node_modules/excalibur/dist/excalibur.d.ts" />
 
-var game = new ex.Engine({
+let game = new ex.Engine({
     width: 800,
     height: 600
 });
 
 // create an asset loader
-var loader = new ex.Loader();
-var resources = {
+let loader = new ex.Loader();
+let resources = {
 
     /* include resources here */
     //txPlayer: new ex.Texture("assets/tex/player.png")
@@ -15,7 +15,7 @@ var resources = {
 };
 
 // queue resources for loading
-for (var r in resources) {
+for (let r in resources) {
     loader.addResource(resources[r]);
 }
 
