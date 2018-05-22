@@ -1,1 +1,7 @@
 node_modules
+
+# webstorm
+.idea/
+
+# typescript
+game/*.js
