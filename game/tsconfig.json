@@ -2,6 +2,6 @@
     "compileOnSave": true,
     "compilerOptions": {
         "target": "es5",
-        "outFile": "game.js"
+        "outFile": "breakout.js"
     }
 }
